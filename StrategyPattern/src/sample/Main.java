@@ -11,6 +11,7 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception{
         BorderPane root = new BorderPane();
         primaryStage.setTitle("Hello World");
+
         primaryStage.setScene(new Scene(root, 300, 275));
         primaryStage.show();
     }
